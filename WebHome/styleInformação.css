@@ -1,0 +1,70 @@
+body{
+    background-image: url(../Images/fundo5.jpg);
+    background-repeat: no-repeat;
+}
+p{
+    color:#F5F5F5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    color:#87CEEB;
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align: center;
+}
+
+/*                                              CSS EXTRAS                                      */
+
+/*CSS DO ICON DA HOME*/
+.imagem1{
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.imagem1:hover{
+    border: 10px solid #87CEEB;
+    border-radius: 50%;
+}
+.imagem1{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem1:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+/*CSS DO ICON LIVRO*/
+.imagem2{
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.imagem2:hover{
+    border: 10px solid #87CEEB;
+    border-radius: 50%;
+}
+.imagem2{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem2:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+/*CSS DO ICON CONTATO*/
+.imagem3{
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.imagem3:hover{
+    border: 10px solid #87CEEB;
+    border-radius: 50%;
+}
+.imagem3{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem3:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}

@@ -1,0 +1,175 @@
+/*-------------
+TEXTOS & FONTES
+-------------*/
+body{
+    background-image: url(../Images/fundo5.jpg);
+    background-repeat: repeat;
+    padding-bottom: 20px;
+    max-height: 720px;
+}
+
+h1{                                           
+    color:hotpink;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{ 
+    color:#F5F5F5;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+}
+
+/*table.tabelao{
+    max-width: 100px;
+}*/
+
+/*----------------------------------
+LIVRO (PROGRAMAÇÃO NEUROLINGUISTICA)
+----------------------------------*/
+div.pnl{
+    position: relative;
+    background-color:#A9A9A9;
+    border-radius: 30px;
+    text-align: center;
+    width: auto;
+}
+.pnl_foto{
+    transition: all 0.5s;
+    cursor: default;
+    width: 200px;  
+}
+.pnl_foto:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+/*------------------------------
+LIVRO (O PODER DO SUBCONSCIENTE)
+------------------------------*/
+div.foto_sub{
+    position: relative;
+}
+.Sub_foto{
+    transition: all 0.5s;
+    cursor: default;
+    width: 200px;
+}
+
+.Sub_foto:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+div.Sub{
+    position: relative;
+    border: 2px;
+    border-radius: 15px;
+    background-color:#A9A9A9;
+    width: auto;
+    text-align: center;
+}
+
+/*--------------------------
+LIVRO (A ARTE DE LER MENTES)
+--------------------------*/
+div.foto_mentes{
+    position: relative;
+    
+}
+.mentes_foto{
+    transition: all 0.5s;
+    cursor: default;
+    width: 200px; 
+}
+
+.mentes_foto:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+div.mentes{
+    position: relative;
+    text-align: center;
+    border: 2px;
+    border-radius: 15px;
+    background-color:#A9A9A9;
+    width: auto;
+}
+
+/*------------------------
+LIVRO (SEUS PONTOS FRACOS)
+------------------------*/
+div.fraco{
+    position: relative;
+    text-align: center;
+    border: 2px;
+    border-radius: 15px;
+    background-color:#A9A9A9;
+    width: auto;
+}
+.foto_fraco{
+    position: relative;
+}
+.foto_fraco{
+    transition: all 0.5s;
+    cursor: default;
+    width: 200px;
+}
+.foto_fraco:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+/*                                              CSS EXTRAS                                      */
+
+/*CSS DO ICON DA HOME*/
+.imagem1{
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.imagem1:hover{
+    border: 10px solid #87CEEB;
+    border-radius: 50%;
+}
+.imagem1{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem1:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+/*CSS DO ICON LIVRO*/
+.imagem2{
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.imagem2:hover{
+    border: 10px solid #87CEEB;
+    border-radius: 50%;
+}
+.imagem2{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem2:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+/*CSS DO ICON CONTATO*/
+.imagem3{
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.imagem3:hover{
+    border: 10px solid #87CEEB;
+    border-radius: 50%;
+}
+.imagem3{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagem3:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}

@@ -1,0 +1,116 @@
+body{
+    background-image: url(../Images/fundo5.jpg);
+    background-repeat: no-repeat;
+ }
+ 
+ div.introdução{
+     border:1px;
+     border-radius: 10px;
+ }
+ div.continuação_introdução{
+     border:1px;
+     border-radius: 10px;
+ }
+ div.segunda_parte{
+     border:5px;
+     border-radius:20px;
+     position:absolute;
+     top: 85%;
+     left:650px;
+ }
+ 
+ #tabela{
+     width: 100vw;
+ }
+ p{
+     color:#F5F5F5;
+     font-family:'Times New Roman', Times, serif;
+     font-size:large;
+ }
+ h1{                                           
+     color:hotpink;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ h2 { 
+     color:#F5F5F5;
+     font-family:'Times New Roman', Times, serif;
+     font-size:medium;
+     border: 1px;
+     background-color: #A9A9A9;
+     border-radius: 30px;
+     padding:10px;
+     width: 285px;
+     text-align: center;
+     margin: 10px;
+ }
+ h3{
+     color:#87CEEB;
+     font-family:'Times New Roman', Times, serif;
+     font-size:xx-large;
+ }
+ 
+ /*                                              CSS EXTRAS                                      */
+ 
+ /*CSS DO ICON DA HOME*/
+ .imagem1{
+     transition: all .5s;
+     border: 10px solid transparent;
+ }
+ .imagem1:hover{
+     border: 10px solid #87CEEB;
+     border-radius: 50%;
+ }
+ .imagem1{
+     transition: all 1s;
+     cursor: pointer;
+ }
+ .imagem1:hover{
+     -webkit-transform: rotateZ(360deg);
+     transform: rotateZ(360deg);
+ }
+ /*CSS DO ICON LIVRO*/
+ .imagem2{
+     transition: all .5s;
+     border: 10px solid transparent;
+ }
+ .imagem2:hover{
+     border: 10px solid #87CEEB;
+     border-radius: 50%;
+ }
+ .imagem2{
+     transition: all 1s;
+     cursor: pointer;
+ }
+ .imagem2:hover{
+     -webkit-transform: rotateZ(360deg);
+     transform: rotateZ(360deg);
+ }
+ 
+ /*CSS DO ICON CONTATO*/
+ .imagem3{
+     transition: all .5s;
+     border: 10px solid transparent;
+ }
+ .imagem3:hover{
+     border: 10px solid #87CEEB;
+     border-radius: 50%;
+ }
+ .imagem3{
+     transition: all 1s;
+     cursor: pointer;
+ }
+ .imagem3:hover{
+     -webkit-transform: rotateZ(360deg);
+     transform: rotateZ(360deg);
+ }
+ 
+ /*CSS DA CAIXA DE PERGUNTA*/
+ .caixaPergunta{
+     transition: all 0.5s;
+     cursor:default;
+ }
+ 
+ .caixaPergunta:hover{
+     -webkit-transform: scale(1.0);
+     transform: scale(1.1);
+ }
